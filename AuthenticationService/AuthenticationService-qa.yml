@@ -1,6 +1,6 @@
 spring:
   application:
-    name: AuthService-qa
+    name: AuthenticationService
   data:
     mongodb:
       host: localhost
@@ -8,4 +8,4 @@ spring:
       database: fab
       
 server:
-  port: 8181
+  port: 8182
