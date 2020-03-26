@@ -1,6 +1,6 @@
 spring:
   application:
-    name: AuthService-dev
+    name: AuthenticationService
   data:
     mongodb:
       host: localhost
