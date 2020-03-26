@@ -1,2 +1,11 @@
-service:
-  greeting: hello from service 1
+spring:
+  application:
+    name: AuthService-dev
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: fab
+      
+server:
+  port: 8181
